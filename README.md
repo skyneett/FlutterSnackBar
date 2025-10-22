@@ -1,16 +1,24 @@
-# flutter_application_2
+# FlutterSnackBar - Proyecto divertido
 
-A new Flutter project.
+Bienvenido al repositorio más heroico del barrio: una app Flutter pequeñita
+que muestra una card de HALO y, al tocar el botón, el SnackBar grita:
+"La UNSC TE NECESITA". Sí, tal cual. Tu teclado puede haber sentido la llamada.
 
-## Getting Started
+¿Por qué existe esto?
+- Porque la UNSC no acepta mensajes por correo electrónico. Necesitan UI.
+- Porque practicar Flutter con cosas épicas siempre es mejor.
 
-This project is a starting point for a Flutter application.
+Cómo usar (rápido):
+1. Instala Flutter.
+2. Desde la raíz del proyecto ejecuta:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Si el SnackBar no aparece, intenta tocar el botón otra vez. O invocar al Jefe Maestro.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Créditos: creado con amor por (tu nombre), y aprobado por la UNSC (no oficialmente).
+
+PD: Si encuentras bugs, considera que son *features* con actitud. 🛡️
