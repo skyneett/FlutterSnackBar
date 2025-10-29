@@ -47,10 +47,17 @@ class HaloCard extends StatelessWidget {
                     top: Radius.circular(16),
                   ),
                   child: Image.network(
-                    'https://media.gq.com.mx/photos/61f99491247e703ee62fca75/1:1/w_1690,h_1690,c_limit/halo.jpg',
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d6MQa3yu30lgavjai-477W0LQ2pBSangQw&s',
                     height: 200,
                     width: double.infinity,
                     fit: BoxFit.cover,
+                    errorBuilder: (context, error, stackTrace) {
+                      return Container(
+                        height: 200,
+                        color: Colors.grey[300],
+                        child: const Icon(Icons.image_not_supported, size: 50),
+                      );
+                    },
                   ),
                 ),
                 // Espaciado y botón
